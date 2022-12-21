@@ -1,0 +1,97 @@
+
+ form {
+    border: 3px solid #f1f1f1;
+    font-family: Arial;
+  }
+  
+  .container1 {
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+header {
+    border: 5px solid rgb(157, 120, 190);
+    padding: 10px;
+    padding-left: 5px;
+   background-color: rgb(130, 86, 167);
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: cornflowerblue;
+    width: 80%;
+}
+.container {
+    padding: 16px;
+  }
+  body, html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-img {
+    
+    background-image: url("img_nature.jpg");
+  
+    min-height: 380px;
+  
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+ 
+  .container {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+  }
+  
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+ 
+  .btn {
+    background-color: #3b3b3b;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  .center2{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  
+    width: 80%;
+}
+.center3{
+    margin: 20px;
+}
